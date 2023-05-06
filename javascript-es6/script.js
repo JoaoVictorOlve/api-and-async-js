@@ -129,7 +129,7 @@
 
 // console.log(example)
 
-// const example = 5;
+// let example = 5;
 // example = 3;
 
 // console.log(example)
@@ -140,3 +140,103 @@
 // console.log(exampleList)
 
 // =========================================
+
+// import { data } from "./export.js";
+
+// let updateData = data;
+
+// updateData.push(5);
+// console.log(updateData);
+
+// =========================================
+
+// let example = "39-20";
+
+// console.log(example.padStart(12, "X"))
+
+
+// let example = "Youtube.com/CodingTutorials360";
+
+// console.log(example.padStart(100).length)
+// console.log(example.padEnd(1))
+
+// =========================================
+
+// import { Animal, Cat } from "./animal-class.js";
+
+// let cat = new Cat("cat", 4, true);
+
+// cat.legs = 3;
+// cat.makeNoise()
+
+// console.log(Animal.return10())
+// console.log(cat.metaData)
+
+// =========================================
+
+// function add(param1,){
+//     const example = {
+//         name: "Dylan",
+//     }
+//     console.log(example.name,)
+// }
+
+// add()
+
+// =========================================
+
+// const apiUrl = "https://anapioficeandfire.com/api/houses/";
+
+// async function getHouses(){
+//     const response = await fetch(apiUrl);
+//     const json = await response.json();
+//     console.log(json[0])
+// }
+
+// getHouses()
+
+// function getTop100Campers(){
+//     fetch(apiUrl)
+//     .then((r)=> r.json())
+//     .then((json)=> {
+//         console.log(json[0])
+//     }).catch((error)=>{
+//         console.log("failed")
+//     })
+// }
+
+// getTop100Campers();
+
+// =========================================
+
+// function resolveAfter3Seconds() {
+// 	return new Promise(resolve => {
+// 		setTimeout(() => {
+// 			resolve("resolved");
+// 		}, 3000);
+// 	});
+// }
+
+// resolveAfter3Seconds().then((data)=>{
+//     console.log(data)
+// })
+
+// async function getAsyncData(){
+//     const data = await resolveAfter3Seconds()
+//     console.log(data)
+// }
+
+// getAsyncData()
+
+// =========================================
+
+// const exampleSet = new Set([1,1,2,2,3,3]);
+
+// exampleSet.add(5)
+// exampleSet.add(17)
+
+// console.log(exampleSet.delete(5));
+
+// exampleSet.clear();
+
+// console.log(exampleSet.size);
