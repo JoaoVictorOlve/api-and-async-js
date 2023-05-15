@@ -1,2 +1,9 @@
 # api-and-async-js
-Using this repository to study API and Asynchronous Javascript
+This repository was used to study about:
+* Fetch API
+* Asynchronous Javascript
+ - Callbacks
+ - Promises
+ - Async/Await
+* JavaScript ES6
+* NPM
